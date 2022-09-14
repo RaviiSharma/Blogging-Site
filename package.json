@@ -1,7 +1,7 @@
 {
   "name": "mini-blogging-site-project-1",
   "version": "1.0.0",
-  "description": "mini-blogging-site",
+  "description": "A blogging platform is a software or service that allows you to create, manage, and publish content on the internet in the form of a blog.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/RaviiSharma/Backend-Projects.git"
   },
-  "author": "Tanmay Hedau",
+  "author": "Ravi Kumar Sharma",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",

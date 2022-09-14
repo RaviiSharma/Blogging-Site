@@ -5,7 +5,7 @@ const authentication = function (req, res, next) {
         let token = req.headers['x-api-key']
 
         if (!token) {
-            return res.status(400).send({ status: false, message: "neccessary header token is missing" })
+            return res.status(401).send({ status: false, message: "neccessary header token is missing" })
         }
         
          jwt.verify(token, "Project-1", (err, author)=> {

@@ -153,8 +153,8 @@ const loginAuthor = async function (req, res) {
         let token = jwt.sign(
             {
                 authorId: Author._id.toString(),
-                batch: "Plutonium",
-                group: 3,
+                batch: "Plutonium"
+                
             },
             "Project-1"
         );
